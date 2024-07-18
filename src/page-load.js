@@ -1,6 +1,6 @@
 const pageLoad = () => {
 
-    x = document.getElementById("content");
+    let x = document.getElementById("content");
 
     let header = document.createElement("h1");
     header.innerText = "Restaurant Homepage"
@@ -12,10 +12,10 @@ const pageLoad = () => {
 
     let image = document.createElement("img");
     image.setAttribute(
-        src,"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/800px-Restaurant_N%C3%A4sinneula.jpg"
+        "src","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Restaurant_N%C3%A4sinneula.jpg/800px-Restaurant_N%C3%A4sinneula.jpg"
     );
     image.setAttribute(
-        alt,"The inside of a revolving restaurant"
+        "alt","The inside of a revolving restaurant"
     );
     x.append(image);
 }

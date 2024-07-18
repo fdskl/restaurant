@@ -1,6 +1,8 @@
-const pageLoad = () => {
+const homepageLoad = () => {
 
-    let x = document.getElementById("content");
+    let x = document.createElement("div");
+    x.setAttribute("id", "content");
+    document.body.append(x);
 
     let header = document.createElement("h1");
     header.innerText = "Restaurant Homepage"
@@ -20,4 +22,4 @@ const pageLoad = () => {
     x.append(image);
 }
 
-export default pageLoad;
+export default homepageLoad;

@@ -1,2 +1,2 @@
-import pageLoad from './page-load';
-pageLoad();
+import homepageLoad from './homepage-load';
+homepageLoad();

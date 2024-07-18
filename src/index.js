@@ -1,2 +1,3 @@
 import homepageLoad from './homepage-load';
-homepageLoad();
+import menuLoad from './menu-load';
+menuLoad();

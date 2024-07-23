@@ -5,7 +5,7 @@ const menuLoad = () => {
     document.body.append(x);
 
     let header1 = document.createElement("h1");
-    header1.innerText = "MENU"
+    header1.innerText = "MENU NEW TEST"
     x.append(header1);
 
     const sections = ["STARTERS", "MAIN COURSE", "DESSERT"];
